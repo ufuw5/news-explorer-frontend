@@ -1,0 +1,133 @@
+.search-form {
+  max-width: 608px;
+  margin: 0 auto;
+  padding: 80px 0;
+  display: grid;
+}
+
+.search-form__title {
+  font-family: Roboto Slab, 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 64px;
+  margin: 0 0 32px;
+  grid-row: 1;
+}
+
+.search-form__subtitle {
+  font-family: Roboto, 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0 0 64px;
+  padding: 0 63px 0 0;
+  grid-row: 2;
+}
+
+.search-form__input {
+  border: 1px solid #D1D2D6;
+  box-sizing: border-box;
+  border-radius: 100px;
+  width: 100%;
+  height: 64px;
+  padding: 0 192px 0 24px;
+  text-overflow: ellipsis;
+  grid-row: 3;
+  grid-column: 1;
+}
+
+.search-form__input::placeholder {
+  font-family: Roboto, 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #B6BCBF;
+}
+
+.search-form__submit {
+  background-color: #2F71E5;
+  transition: background-color .2s linear;
+  color: #fff;
+  border: 0;
+  border-radius: 100px;
+  font-family: Roboto, 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 24px;
+  width: 168px;
+  height: 64px;
+  cursor: pointer;
+  grid-row: 3;
+  grid-column: 1;
+  margin: 0 0 0 auto;
+}
+
+.search-form__submit:hover {
+  background-color: #347EFF;
+}
+
+.search-form__submit:active {
+  background-color: #2A65CC;
+
+}
+
+
+@media screen and (max-width: 900px) {
+  .search-form {
+    max-width: 448px;
+    padding: 38px 0 48px;
+  }
+
+  .search-form__title {
+    font-size: 36px;
+    line-height: 40px;
+    margin: 0 0 16px;
+  }
+
+  .search-form__subtitle {
+    margin: 0 0 48px;
+  }
+
+  .search-form__input {
+    height: 56px;
+    padding: 0 186px 0 24px;
+  }
+
+  .search-form__submit {
+    width: 160px;
+    height: 56px;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .search-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 30px 5% 32px;
+    position: static;
+  }
+
+  .search-form__title {
+    font-size: 36px;
+    line-height: 40px;
+    margin: 0;
+  }
+
+  .search-form__subtitle {
+    padding: 0;
+    margin: 0 0 106px;
+  }
+
+  .search-form__input {
+    padding: 0 24px 0;
+    margin: auto 0 0;
+  }
+
+  .search-form__submit {
+    width: 100%;
+  }
+}
