@@ -67,19 +67,19 @@ function Header({
 
   return (
     <header className={`header ${'header_theme-'.concat(theme)} ${hidden && 'header_hidden'}`}>
-      <div className={`header__overlay ${menuState.isOpen && 'header__overlay_open-menu'}`}>
-        <div className={`header__container ${menuState.isOpen && 'header__container_open-menu'}`}>
+      <div className={`header__overlay ${(menuState.isOpen && menuState.init) && 'header__overlay_open-menu'}`}>
+        <div className={`header__container ${(menuState.isOpen && menuState.init) && 'header__container_open-menu'}`}>
           <div className='header__menu'>
             <Link className="header__name" to="/">NewsExplorer</Link>
             {menuState.init && <button className="header__menu-button" onClick={handleMenuButton}>
-              <img className='header__menu-icon' src={menuState.isOpen ? iconCloseMenu : iconMenu} />
+              <img className='header__menu-icon' src={menuState.isOpen ? iconCloseMenu : iconMenu} alt="Иконка меню" />
             </button>}
           </div>
           {menuState.isOpen && <div className="header__nav">
             <Navigation />
             <button className="header__auth" onClick={handleOnAuth}>
               <p>gregreg</p>
-              <img src={menuState.iconLogout} />
+              <img src={menuState.iconLogout} alt="Иконка выход из профиля" />
             </button>
           </div>}
         </div>

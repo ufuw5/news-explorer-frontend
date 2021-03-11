@@ -5,7 +5,7 @@ import imgAvatar from '../../images/avatar.jpg';
 function About() {
   return (
     <figure className="about">
-      <img className="about_image" src={imgAvatar} />
+      <img className="about_image" src={imgAvatar} alt="Аватар" />
       <figurecaption>
         <h2 className="about_title">Об авторе</h2>
         <p className="about_subtitle">

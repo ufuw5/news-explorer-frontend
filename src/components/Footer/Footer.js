@@ -14,8 +14,8 @@ function Footer() {
           <a className="footer__nav-item" href="https://praktikum.yandex.ru/" target="_blank" rel="noreferrer">Яндекс.Практикум</a>
         </nav>
         <nav className="footer__nav-icon">
-          <a className="footer__nav-item" href="https://github.com" target="_blank" rel="noreferrer"><img src={iconGitHub} /></a>
-          <a className="footer__nav-item" href="https://facebook.com/" target="_blank" rel="noreferrer"><img src={iconFB} /></a>
+          <a className="footer__nav-item" href="https://github.com" target="_blank" rel="noreferrer"><img src={iconGitHub} alt="Иконка GitHub" /></a>
+          <a className="footer__nav-item" href="https://facebook.com/" target="_blank" rel="noreferrer"><img src={iconFB} alt="Иконка Facebook" /></a>
         </nav>
       </section>
     </footer>
