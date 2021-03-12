@@ -1,0 +1,134 @@
+.signup-form {
+  width: 394px;
+  background-color: #fff;
+  border-radius: 16px;
+}
+
+.signup-form__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.signup-form__title {
+  font-family: Roboto, 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  color: #1A1B22;
+  margin: 0 0 22px 0;
+}
+
+.signup-form__label {
+  font-family: Inter, 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #2F71E5;
+  margin: 0 0 8px 0;
+}
+
+.signup-form__input {
+  border: none;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  margin: 0 0 30px 0;
+  line-height: 20px;
+}
+
+.signup-form__input::placeholder {
+  font-family: Inter, 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgba(0, 0, 0, 0.2);
+}
+
+.signup-form__input:last-of-type {
+  margin: 0 0 17px 0;
+}
+
+.signup-form__tip {
+  font-family: Inter, 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #f00;
+  margin: 3px 0 0;
+  text-align: center;
+}
+
+.signup-form__submit {
+  background-color: #E6E8EB;
+  border: none;
+  border-radius: 100px;
+  font-family: Roboto, 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 64px;
+  text-align: center;
+  color: #B6BCBF;
+  margin: 8px 0 16px 0;
+}
+
+.signup-form__submit_active {
+  background-color: #2F71E5;
+  color: #fff;
+  box-shadow: 0px 5px 15px rgba(14, 26, 57, 0.2);
+}
+
+.signup-form__text {
+  font-family: Inter, 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #000;
+  margin: 0;
+}
+
+.signup-form__link {
+  color: #2F71E5;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.signup-form__end {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 9px 0 23px;
+}
+
+.signup-form__end-title {
+  font-family: Roboto, 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000;
+}
+
+.signup-form__end-link {
+  font-family: Inter, 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 14px 0 0;
+  padding: 0;
+  color: #2F71E5;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  cursor: pointer;
+}

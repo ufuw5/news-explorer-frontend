@@ -1,0 +1,64 @@
+.search-result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1232px;
+  padding: 80px 7.22%;
+  margin: 0 auto;
+}
+
+.search-result__title {
+  font-family: Roboto Slab, 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 46px;
+  color: #1A1B22;
+  margin: 0 0 64px;
+  align-self: start;
+}
+
+.search-result__card-list {
+  width: 100%;
+  padding: 64px 7.22%;
+}
+
+.search-result__more-button {
+  font-family: Roboto, 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  width: 288px;
+  line-height: 64px;
+  color: #1A1B22;
+  background-color: #fff;
+  transition: background-color .2s linear;
+  border: none;
+  border-radius: 80px;
+  cursor: pointer;
+}
+
+.search-result__more-button:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 900px) {
+  .search-result {
+    padding: 40px 5.2%;
+  }
+
+  .search-result__title {
+    font-size: 30px;
+    line-height: 34px;
+    margin: 0 0 32px;
+  }
+
+  .search-result__card-list {
+    padding: 32px 5.2%;
+  }
+
+  .search-result__more-button {
+    width: 240px;
+    line-height: 56px;
+  }
+}

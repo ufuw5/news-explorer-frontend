@@ -1,0 +1,11 @@
+.main__header {
+  background-image: url(../../images/background.jpg);
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  height: max-content;
+}
+
+.main__search-result {
+  background-color: #F5F6F7;
+}
